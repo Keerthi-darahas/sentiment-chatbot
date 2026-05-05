@@ -2,19 +2,19 @@
 
 ## 📌 Problem Statement
 
-Build a chatbot that detects user sentiment (positive or negative) and responds accordingly to improve user interaction.
+Build a chatbot that can detect user sentiment (positive or negative) and respond accordingly.
 
 ## 📊 Dataset
 
 * Sentiment140 dataset
-* Contains tweets labeled as positive or negative
+* Contains tweets labeled as positive and negative
 
 ## ⚙️ Methodology
 
-1. Data preprocessing (cleaning text)
-2. Converted text to numerical format using CountVectorizer
-3. Trained model using Logistic Regression
-4. Evaluated using accuracy score
+1. Data cleaning (removed links, special characters)
+2. Converted text to numerical form using CountVectorizer
+3. Trained Logistic Regression model
+4. Evaluated using accuracy
 
 ## 🤖 Model Used
 
@@ -22,18 +22,20 @@ Build a chatbot that detects user sentiment (positive or negative) and responds 
 
 ## 📈 Results
 
-* Achieved good accuracy (~70–80%)
-* Successfully detects sentiment from user input
+* Achieved accuracy around 70–80%
+* Model correctly identifies sentiment
 
-## 💬 Chatbot Feature
+## 💬 Chatbot
 
-* Detects sentiment of user message
-* Responds differently for positive and negative inputs
+* Takes user input
+* Detects sentiment
+* Responds accordingly
 
 ## 📊 Visualization
 
-* Bar chart showing sentiment distribution
+* Bar graph showing sentiment distribution
 
 ## 🚀 Conclusion
 
-The chatbot can understand user emotions and respond appropriately, improving user experience.
+The chatbot improves interaction by understanding user emotions.
+
